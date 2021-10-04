@@ -32,13 +32,11 @@ for row in csv_file:
     else:
         highs.append(int(row[4]))
         lows.append(int(row[5]))
-
-    dates.append(the_date)
+        dates.append(the_date)
 
 # print(dates)
 # print(highs)
 
-'''
 
 fig = plt.figure()
 plt.title("Daily high temperatures, July 2018", fontsize=16)
@@ -69,4 +67,4 @@ plt.suptitle("Highsand Lows of Sitka, Alaska")
 plt.show()
 #row, column, index
 
-'''
+
